@@ -1,0 +1,54 @@
+:root {
+    --main-text: #333;
+    --main-bg: #fff;
+    --main-header: #ddd;
+}
+
+body {
+    color: var(--main-text);
+    background-color: var(--main-bg);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text);
+}
+
+header {
+    background-color: var(--main-header);
+    display: flex;
+    width: 100%;
+    height: 85px;
+    top: 0;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.menu-list {
+    margin: 0;
+    padding: 0;
+    height: 85px;
+    display: flex;
+}
+
+.menu-item {
+    width: 100px;
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.menu-item:hover {
+    background: white;
+    color: black;
+}
